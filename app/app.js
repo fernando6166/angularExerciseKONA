@@ -1,3 +1,4 @@
+
 'use strict';
 
 var app = angular.module('MobileAngularUiExamples', [
@@ -16,4 +17,7 @@ app.config(function ($routeProvider) {
             controller: "MainController"
         });
     $routeProvider.when('/about', {templateUrl: "templates/about.html"});
+    $routeProvider.when('/addEmployee', {templateUrl: "templates/addEmployee.html"});
 });
+    
+
